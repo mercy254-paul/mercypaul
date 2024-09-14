@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet"href="style.css"> 
+    <style>
+        /*Basic reset*/
+        .  {
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /*Styling the navigation bar */
+        nav{
+            background-color: #333;
+            padding: 10px;
+        }
+
+        /*Unordered list styling*/
+        nav ul {
+            list-style-type:none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        /*List items*/
+        nav ul li{
+            display: inline;
+        }
+        /*Links styling*/
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover{
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+
+
+        
+    </style>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">home</a><li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#servies">services</a></li>
+              <li><a href="contact">contact</a></li>
+        </ul>
+    </nav>
+    <button>
+        Enter your name
+    </button>
+    
+    <div>
+        <fieldset>
+            <legend>my information</legend>
+
+            <label for="first name" class="label">first name</label>
+            <input type="" id="first name" name="first name">
+        </fieldset>
+    </div>
+    
+</body>
+</html>
